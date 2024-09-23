@@ -1,0 +1,15 @@
+{
+  "name": "javascript_assignments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --watch"
+  },
+  "author": "Alexander Müdespacher",
+  "license": "ETH Zurich",
+  "devDependencies": {
+    "jsdom": "^24.1.1",
+    "vitest": "^2.0.5"
+  }
+}

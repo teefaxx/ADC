@@ -1,0 +1,39 @@
+<!-- Task: create a fading and a shrinking transition -->
+<!-- see transitions.mp4 for the desired result -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Transitions</title>
+    <style>
+      .fade {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        /* add a transition property to let the element fade
+         while the mouse cursor is being on top */
+      }
+
+      .fade:hover {
+        /* add a style property to make the transition work */
+      }
+
+      .collapse {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        /* add a transition property to let the element shrink 
+         while the left mouse button is being pressed */
+      }
+
+      .collapse:active {
+        /* add two style properties to make the transition work */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- do not change these elements -->
+    <div class="fade"></div>
+    <div class="collapse"></div>
+  </body>
+</html>

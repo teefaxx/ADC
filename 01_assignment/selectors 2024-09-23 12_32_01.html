@@ -1,0 +1,48 @@
+<!-- Task: replace element1 and element2 by grand-parent, parent, or child -->
+<!-- see selectors.png for the desired result -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Selectors</title>
+    <style>
+      /* get all "parent child" elements by the following selector */
+      .element1.element2 {
+        border: 1px solid black;
+      }
+
+      /* get all "parent child" elements by the following selector */
+      .element1 > .element2 {
+        background-color: red;
+      }
+
+      /* get all "parent child" elements by the following selector (alternative) */
+      .element1 > .element2 {
+        background-color: red;
+      }
+
+      /* get all "child" elements by the following selector */
+      .element1 .element2 {
+        height: 100px;
+        width: 100px;
+      }
+
+      /* get all "child" elements by the following selector (alternative) */
+      .element1 .element2 {
+        height: 100px;
+        width: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- do not change these elements -->
+    <div class="grand-parent parent">
+      <div class="parent child">
+        <div class="child"></div>
+      </div>
+      <div class="parent child">
+        <div class="child"></div>
+      </div>
+    </div>
+  </body>
+</html>
